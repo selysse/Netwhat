@@ -75,12 +75,8 @@ My repositories for the 21 (42) schools "Netwhat" project
 > 255.255.255.0 is applied to the 129.144.41.101 , the result is the IPv4 address of 129.144.41.0
 >
 > 129.144.41.101  **AND**  255.255.255.0 =  **129.144.41.0**
->
-> In binary form, the operation is:
->
-> **10000001.10010000.00101001.01100101**		<== (IPv4 address)
-> AND
-> **11111111.11111111.11111111.00000000**		<==(netmask)
+
+
 
  **6. What are the differences between public and private IPs**
 
@@ -89,20 +85,8 @@ My repositories for the 21 (42) schools "Netwhat" project
 > a machine on the internet. Private IP address is used with a local
 > network and public IP address is used outside the network. Public IP
 > address is provided by ISP, Internet Service Provider.
->
-> Following are the important differences between Private IP Address and Public IP Address.
 
-Key|Private IP| Public IP|
-|--|--|--|
-|**Scope**|Private IP address scope is local to present network.|Public IP Address is used to communicate outside the network.|
-**Communication**|Private IP Address is used to communicate within the network.|Public IP Address is used to communicate outside the network.|
-**Format**|Private IP Addresses differ in a uniform manner.|Public IP Addresses differ in varying range.|
-**Provider**|Local Network Operator creates private IP addresses using network operating system.|ISP, Internet Service Provider controls the public IP address.|
-**Cost**|Private IP Addresses are free of cost.|Public IP Address comes with a cost.|
-**Locate**|Private IP Address can be located using ipconfig command.|Public IP Address needs to be searched on search engine like google.|
-**Range**|Private IP Address range: 10.0.0.0  –  10.255.255.255, 172.16.0.0  –  172.31.255.255,192.168.0.0  –  192.168.255.255| Public IP Address needs to be searched on search engine like google.|Except private IP Addresses, rest IP addresses are public.
-**Example**|Private IP Address is like 192.168.11.50.| Public IP Address is like 17.5.7.8.
-|  |  |  |
+
 
  **7. What is a class of IP addresses**
 > With an IPv4 IP address, there are five classes of available IP
@@ -246,10 +230,9 @@ The Domain Network System (DNS) protocol helps Internet users and network device
 > 4.  When the resolver reaches the  **authoritative DNS name server** for “example.com”, it receives the IP address and other relevant details, and returns it to the DNS client. The DNS request is now **resolved**.
 > 5.  The DNS client device can connect to the server directly using the correct IP address.
 
- **14. What are the rules to make 2 devices communicate using IP addresses**
 
 
- **15. How does routing work with IP**
+ **14. How does routing work with IP**
 
 
 
@@ -261,11 +244,11 @@ The Domain Network System (DNS) protocol helps Internet users and network device
 > -   Packet numbers that help reassemble the packets in the correct order whe the packets reach the destination.
 > -   Other useful technical information.
 
- **16. What is a default gateway for routing**
+ **15. What is a default gateway for routing**
 
 
 > It allows devices within one network to send information to devises within another network. If you are requestiong a certain web page, the trafic is first sent to your default gateay before leaving the local network to reach its indended destination.
 
-**17. What is a port from an IP point of view and what is it used for when connecting to another device**
+**16. What is a port from an IP point of view and what is it used for when connecting to another device**
 
 > In computer networking, a port is a communication endpoint. At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service. Ports are identified for each protocol and address combination by 16-bit unsigned numbers, commonly known as the port number. The most common protocols that use port numbers are the Transmission Control Protocol (TCP) and the User Datagram Protocol (UDP).
