@@ -1,6 +1,10 @@
 # Netwhat
 My repositories for the 21 (42) schools "Netwhat" project 
 
+## Netwhat test's <a name="test"></a>
+Link: [click](https://github.com/adblanc/netwhat42-train)  
+#Run Test  `./netwhat42 37`
+
 **1. ◦ What is an IP address**
 
 > IP address stands for internet protocol address. It is an identifying
@@ -263,8 +267,3 @@ The Domain Network System (DNS) protocol helps Internet users and network device
 **17. What is a port from an IP point of view and what is it used for when connecting to another device**
 
 > In computer networking, a port is a communication endpoint. At the software level, within an operating system, a port is a logical construct that identifies a specific process or a type of network service. Ports are identified for each protocol and address combination by 16-bit unsigned numbers, commonly known as the port number. The most common protocols that use port numbers are the Transmission Control Protocol (TCP) and the User Datagram Protocol (UDP).
-
-## Netwhat train test's <a name="test"></a>
-Link to the test: [click](https://github.com/adblanc/netwhat42-train)  
-#RUN TEST  `./netwhat42 37`
-
